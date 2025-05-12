@@ -23,7 +23,7 @@ Cette application interactive permet aux utilisateurs de :
 
 ## 📸 Aperçu
 
-Accédez à la démo sur [GitHub Pages](https://gautierdemo.github.io/ChoresList/)  
+Accédez à la démo sur <a href="https://gautierdemo.github.io/ChoresList/" target="_blank">GitHub Pages</a>   
 
 ## 📁 Comment l’utiliser
 
