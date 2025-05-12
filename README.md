@@ -23,12 +23,12 @@ Cette application interactive permet aux utilisateurs de :
 
 ## 📸 Aperçu
 
-Accédez à la démo sur [GitHub Pages](https://gautierdemo.github.io/ChoresList/)  
+Accédez à la démo sur [GitHub Pages](https://gautierdemo.github.io/ChoresList/)
 
 ## 📁 Comment l’utiliser
 
-1. Cloner le dépôt  
-2. Ouvrir le fichier `index.html` dans un navigateur  
+1. Cloner le dépôt
+2. Ouvrir le fichier `index.html` dans un navigateur
 3. Ou consulter le projet directement via GitHub Pages
 
 ## 🧠 Ce que j’ai appris
