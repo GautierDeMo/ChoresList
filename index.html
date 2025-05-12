@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Choreslist</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Choreslist</h1>
+            <div class="inputAndFriends">
+                <label for="choreInput" class="visually-hidden">Add a chore:</label>
+                <input id="choreInput" type="text" placeholder="Enter a chore" aria-label="Add a chore">
+                <button id="addBtn" aria-label="Add chore">&rarr;</button>
+                <button id="deleteBtn" aria-label="Delete all chores">✕</button>
+            </div>
+
+            <div id="gifContainer">
+                <img id="randomGif" alt="Random Gif">
+            </div>
+
+            <ul id="choresList"></ul>
+        </div>
+        <audio id="cheerSound" src="https://www.soundjay.com/human/sounds/applause-8.mp3"></audio>
+        <script src="index.js"></script>
+    </body>
+</html>
