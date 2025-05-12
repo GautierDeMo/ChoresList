@@ -1,0 +1,118 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #FEFEFE;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  width: 303px;
+  color: black;
+  font-size: 70px;
+  font-family: Concert One;
+  font-weight: 400;
+  overflow-wrap: break-word;
+}
+
+#choreInput {
+  width: 212px;
+  height: 35px;
+  background: #EEEEEE;
+  border-radius: 10px;
+  color: #A3A3A3;
+  font-size: large;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  border: transparent;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+  border: transparent;
+}
+
+.container {
+  text-align: center;
+  width: 303px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputAndFriends {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 4px;
+  width: 302px;
+}
+
+#deleteBtn {
+  background-color: #FF9548;
+}
+
+#addBtn {
+  background-color: #FFCC68;
+}
+
+.chore {
+  background-color: #FBDF7C;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  border-radius: 10px;
+  width: 302px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+#choresList {
+  list-style: none;
+  padding-inline-start: 0%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#gifContainer {
+  text-align: center;
+  margin-top: 4px;
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: scale(0.95);
+  }
+  to {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+#gifContainer.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+#randomGif {
+  width: 100%;
+  max-width: 301px;
+  border-radius: 10px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
